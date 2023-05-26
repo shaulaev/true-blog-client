@@ -1,0 +1,18 @@
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    gap: 15px;
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        display: block;
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    background-color: rgba(127, 198, 244, 0.3);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
