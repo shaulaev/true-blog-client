@@ -34,6 +34,8 @@ const Index = ({ changeData, data }: Props) => {
                 <Typography component='h1' variant='h5'>
                     Sign in
                 </Typography>
+                {/* 
+// @ts-ignore */}
                 <Box component='form' onSubmit={handleAuth} noValidate sx={{ mt: 1 }}>
                     <TextField
                         margin='normal'
